@@ -33,6 +33,7 @@ max-width: 30%;
 height: auto;
 
 
+
 }
 
 header {
@@ -56,7 +57,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-left: 22px;
-    
+
 }
 
 nav ul li a {
@@ -159,3 +160,136 @@ button:hover {
 
 }
 
+
+
+
+
+
+
+@media (min-width: 1200px) 
+{
+
+    header {
+        display: flex; 
+        align-items: center; 
+        justify-content: center; 
+        padding: 10px 20px;
+    }
+
+    header img{
+        max-width: 8%;
+        height: auto;
+    }
+
+
+    header nav {
+        font-size: 1.5rem;
+        font-weight: bolder;
+      
+    }
+    
+
+    header nav ul li {
+        padding: 0 15px; 
+    }
+    .background h1 { 
+        font-size: 9rem;
+        color: #fff;
+        text-align: center;
+        margin: 0; 
+        padding-top: 20px; 
+        font-family: "Kaushan Script", cursive;
+    }
+
+    .about {
+    
+     display: flex;
+     justify-content: center;
+
+        padding: 40px; 
+    }
+
+    .about div{
+        width: 50%;
+    }
+
+    .about h1 {
+        font-size: 3rem; 
+        margin: 0;
+    }
+
+    .about p {
+        font-size: 1.2rem; 
+        line-height: 1.8; 
+    }
+
+    .about iframe {
+        width: 50%;
+        height: 500px; 
+    }
+   
+    .events h1{
+        font-size: 3rem;
+        margin: 0;
+    }
+    .events h4 {
+        font-size: 1.5rem; 
+        margin-bottom: 10px;
+    }
+
+    .events p, .events li {
+        font-size: 1.2rem; 
+
+    }
+
+    .contact-form {
+        width: 50%; 
+        margin: 0 auto; 
+        padding: 40px; 
+        background-color: #d4edda; 
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    }
+
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+        width: calc(100% - 30px); 
+        padding: 15px; 
+        font-size: 1.25rem; 
+    
+    }
+
+    .contact-form label {
+        font-size: 1.2rem; 
+        margin-bottom: 10px; 
+    }
+
+    .contact-form button {
+        padding: 10px 20px; 
+        font-size: 1.2rem;
+        cursor: pointer;
+    }
+   
+    .buyback img{
+        width: 50rem;
+        
+    
+    }
+
+    .buyback {
+display: flex;
+    }
+    
+    .buyback p{
+        font-size: 1.2rem;
+    }
+
+    .buyback ol{
+        font-size: 1.2rem;
+    }
+    
+    header, footer {
+        background-color: rgba(0, 0, 0, 0.15);
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); 
+    }
+}
